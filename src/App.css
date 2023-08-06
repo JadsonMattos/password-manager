@@ -1,0 +1,182 @@
+.valid-password-check {
+  color: #aeffb6;
+  font-size: 14px;
+  margin: 0 30px;
+  text-align: left;
+}
+
+.invalid-password-check {
+  color: #f58989;
+  font-size: 14px;
+  margin: 0 30px;
+  text-align: left;
+}
+
+body {
+  background: #272A37;
+}
+
+.container {
+  margin: 50px;
+  background: #272A37;
+  text-align: center;
+  position: relative;
+}
+
+p {
+  font-size: 26px;
+  line-height: 30px;
+  color: #838383;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 76px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+span {
+  color: #3187E7;
+}
+
+button {
+  background: #3590F5;
+  border-radius: 100px;
+  width: 256px;
+  height: 55px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  
+}
+
+hr {
+  border: 3px solid #CACACA;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.show {
+  color: #8D8D8D;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  text-align: end;
+}
+
+.form {
+  display: flex;
+  background: #1E2029;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  background: #252730;
+  border-radius: 10px;
+  width: 290px;
+  height: 145px;
+  justify-content: center;
+  margin: 100px;
+}
+
+.left input {
+  background: #3B3F50;
+  border-radius: 10px;
+  width: 600px;
+  height: 40px;
+  margin: 10px;
+}
+
+.left label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8D8D8D;
+}
+
+.left {
+  text-align: left;
+  margin: 30px;
+}
+
+.center input {
+  width: 285px;
+}
+
+.center {
+  display: flex;
+}
+
+.form button {
+  width: 190px;
+  margin: 10px;
+}
+
+.card {
+  background: #323544;
+  border-radius: 10px;
+  width: 240px;
+  height: 170px;
+  margin: 30px 30px;
+}
+
+.card a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3590F5;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9CBCE0;
+  text-align: start;
+  margin: 20px 0 0 20px;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card button {
+  width: 200px;
+  height: 30px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .left {
+    margin: 0;
+  }
+
+  .right {
+    margin: 0;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0 10px;
+  }
+}
